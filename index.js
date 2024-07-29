@@ -11,8 +11,9 @@ function calcular(){
     }
 }
 
-function limparDisplay(){
-    display.value = "";
-}
-
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        calcular();
+    }
+});
 
