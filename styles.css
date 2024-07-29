@@ -53,9 +53,11 @@ button{
 
 ::-webkit-scrollbar-track{
     background: hsl(0, 0%, 50%);
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb{
     background: hsl(0, 0%, 10%);
+    border-radius: 10px;
     
 }
