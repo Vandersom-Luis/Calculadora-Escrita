@@ -1,7 +1,5 @@
 const display = document.getElementById("display");
 
-const botao = document.getElementById("botaodecalcular");
-
 function calcular(){
     try{
         display.value = eval(display.value);
@@ -16,4 +14,3 @@ document.addEventListener('keydown', function(event) {
         calcular();
     }
 });
-
